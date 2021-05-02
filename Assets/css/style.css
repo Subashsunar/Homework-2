@@ -1,0 +1,16 @@
+/* Google fonts for font style. CITE: https://fonts.google.com/ */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
+
+/* Selecting all page using universal selector (*). */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styiling a h2 from header section of the HTML. */
+.name-logo {
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    color: White;
+  }
