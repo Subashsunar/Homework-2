@@ -68,3 +68,33 @@ a {
   .contact-me:hover {
     background-color: #569aecab;
   }
+
+  /*  */
+  .contact-me:hover {
+    background-color: #569aecab;
+  }
+  
+  .banner-section {
+    background-color: #7d7d83a1;
+    background-image: url(../images/pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 75px;
+    padding-top: 175px;
+  }
+  
+  .banner-section p {
+    color: white;
+    font-size: 25px;
+  }
+  
+  .banner-section span:hover {
+    color: crimson;
+  }
