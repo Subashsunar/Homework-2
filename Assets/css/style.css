@@ -170,8 +170,8 @@ h1 {
 }
 
 .card:hover {
-  /* transition: scale(55); */
-  /* box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.644); */
+  transition: scale(55);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.644);
 }
 
 /* Media qyery: for responsive effect on different diveces.
