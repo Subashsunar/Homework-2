@@ -1,0 +1,77 @@
+
+/* This styling is for Contact Me Page. */
+/* Google fonts for font style. CITE: https://fonts.google.com/ */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
+
+/* Selecting all page using universal selector (*). */
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* Styling a h2 from header section of the HTML. */
+.name-logo {
+transition: all 0.3s ease 0s;
+font-size: 20px;
+color: White;
+}
+
+/* This is the background of the page */
+header {
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+}
+
+/* Added hever effect on span tag / logo */
+span:hover {
+color: #6596d3;
+}
+
+/* Styling a lists elements from header tag. */
+li,
+a {
+font-family: "DM Serif Text", serif;
+font-weight: 500;
+font-size: 16px;
+color: white;
+text-decoration: none;
+}
+
+/* This is the styling of the nav lists */
+.nav-lists {
+list-style: none;
+}
+
+.nav-lists li {
+display: inline-block;
+padding: 0 20px;
+}
+
+.nav-lists li a {
+transition: all 0.3s ease 0s;
+}
+
+.nav-lists li a:hover {
+color: #6596d3;
+}
+
+.contact-me {
+background-color: #6596d3;
+padding: 7px 25px;
+border: none;
+transition: all 0.3s ease 0s;
+border-radius: 40px 0 40px 0;
+}
+
+/* This interactive hover effect applies on Contact me link. */
+.contact-me:hover {
+background-color: #569aecab;
+}
+
+.contact-me:hover {
+background-color: #569aecab;
+}
